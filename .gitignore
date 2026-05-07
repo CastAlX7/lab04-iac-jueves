@@ -1,16 +1,24 @@
-# Terraform
 .terraform/
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
 terraform.tfstate.d/
 *.zip
+crash.log
+*.tfplan
 
-# Node
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Imágenes de prueba
 src/images/
 
-# Variables sensibles (cada usuario usa su propio tfvars local)
-# terraform.tfvars  ← descomenta si no quieres subir el correo al repo
+terraform.tfvars
+*.tfvars.json
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/

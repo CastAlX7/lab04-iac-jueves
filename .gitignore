@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.d/
+*.zip
+
+# Node
+node_modules/
+
+# Imágenes de prueba
+src/images/
+
+# Variables sensibles (cada usuario usa su propio tfvars local)
+# terraform.tfvars  ← descomenta si no quieres subir el correo al repo

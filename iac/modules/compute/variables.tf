@@ -1,0 +1,10 @@
+variable "project_name"        { type = string }
+variable "aws_region"          { type = string }
+variable "bucket_id"           { type = string }
+variable "queue_arn"           { type = string }
+variable "private_subnet_a_id" { type = string }
+variable "private_subnet_b_id" { type = string }
+variable "upload_sg_id"        { type = string }
+variable "crop_sg_id"          { type = string }
+variable "upload_role_arn"     { type = string }
+variable "crop_role_arn"       { type = string }
